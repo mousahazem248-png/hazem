@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ultra Downloader</string>
+    <string name="app_tagline">Luxury &amp; Compliant Media Downloader</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_active">Active</string>
+    <string name="nav_completed">Completed</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Start Using Ultra Downloader</string>
+    <string name="onboarding_title_1">Smart Platform Detection</string>
+    <string name="onboarding_desc_1">Paste any supported link from YouTube, TikTok, Instagram, or direct media streams. Ultra Downloader automatically identifies the platform and fetches legitimate metadata.</string>
+    <string name="onboarding_title_2">True Quality &amp; Integrity</string>
+    <string name="onboarding_desc_2">Select genuine resolutions (360p to 4K when provided by the source) or MP3 audio. Every file is verified with SHA-256 and byte-size checks before completion.</string>
+    <string name="onboarding_title_3">Privacy &amp; Platform Compliance</string>
+    <string name="onboarding_desc_3">Zero social login storage, SSRF network protection, and full respect for platform Terms of Service and copyright rules.</string>
+
+    <!-- Home Screen -->
+    <string name="home_url_label">Paste video or audio link here</string>
+    <string name="home_url_placeholder">https://www.youtube.com/watch?v=... or TikTok / Instagram URL</string>
+    <string name="home_analyze_button">Analyze Link</string>
+    <string name="home_paste_clipboard">Paste from Clipboard</string>
+    <string name="home_clear_input">Clear</string>
+    <string name="home_detected_platform">Detected Platform: %1$s</string>
+    <string name="home_clipboard_empty">Clipboard does not contain a text link</string>
+    <string name="home_clipboard_privacy_note">Clipboard is only read when you tap Paste</string>
+
+    <!-- Preview & Quality Selection -->
+    <string name="preview_title">Media Preview &amp; Quality</string>
+    <string name="preview_channel">Channel / Creator: %1$s</string>
+    <string name="preview_duration">Duration: %1$s</string>
+    <string name="preview_select_format">Select Quality &amp; Format</string>
+    <string name="preview_video_formats">Video Formats (MP4)</string>
+    <string name="preview_audio_formats">Audio Only (MP3 / M4A)</string>
+    <string name="preview_size_unknown">Size calculated during download</string>
+    <string name="preview_start_download">Download Selected Format</string>
+    <string name="preview_policy_restricted_title">Download Restricted by Platform Policy</string>
+    <string name="preview_open_official_app">Use Official Platform Feature</string>
+
+    <!-- Downloads (Active & Completed) -->
+    <string name="active_downloads_title">Active Downloads</string>
+    <string name="active_downloads_empty">No active downloads right now</string>
+    <string name="completed_downloads_title">Completed Downloads</string>
+    <string name="completed_downloads_empty">No completed downloads yet</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_open">Play</string>
+    <string name="action_share">Share</string>
+    <string name="status_queued">Queued</string>
+    <string name="status_downloading">Downloading (%1$d%%)</string>
+    <string name="status_merging">Merging Audio &amp; Video…</string>
+    <string name="status_verifying">Verifying File Integrity…</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_completed">Completed &amp; Verified</string>
+    <string name="status_failed">Failed: %1$s</string>
+
+    <!-- Local Video Player -->
+    <string name="player_title">Media Player</string>
+    <string name="player_open_external">Open in External Player</string>
+    <string name="player_file_verified">Integrity Verified (SHA-256: %1$s)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Appearance Theme</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_dark">Luxury Obsidian Dark</string>
+    <string name="settings_theme_light">Clean Daylight</string>
+    <string name="settings_language">Language / اللغة</string>
+    <string name="settings_language_ar">العربية (RTL)</string>
+    <string name="settings_language_en">English (LTR)</string>
+    <string name="settings_wifi_only">Download on Wi-Fi Only</string>
+    <string name="settings_concurrent_limit">Max Concurrent Downloads: %1$d</string>
+    <string name="settings_storage_path">Storage Location: Movies/UltraDownloader (Scoped MediaStore)</string>
+    <string name="settings_about_link">About &amp; Privacy Policy</string>
+
+    <!-- About & Privacy -->
+    <string name="about_title">About &amp; Privacy Policy</string>
+    <string name="about_version">Version 1.0.0 (Production Build)</string>
+    <string name="about_privacy_header">Strict Privacy &amp; Zero Data Collection</string>
+    <string name="about_privacy_body">Ultra Downloader processes links locally on your device. We never collect, upload, or store your downloaded files, clipboard history, or social media credentials. All connections strictly enforce HTTPS and SSRF filters.</string>
+    <string name="about_compliance_header">Platform Terms &amp; Legal Compliance</string>
+    <string name="about_compliance_body">Ultra Downloader respects intellectual property and platform Terms of Service (YouTube, TikTok, Instagram). Only publicly authorized streams, Creative Commons media, or user-owned exports with direct download permissions are downloaded.</string>
+
+    <!-- Error Screen & Diagnostics -->
+    <string name="error_screen_title">Diagnostic &amp; Suggested Solutions</string>
+    <string name="error_suggested_actions">Recommended Steps:</string>
+    <string name="error_try_again">Try Another Link</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Ultra Downloader Transfers</string>
+    <string name="notif_channel_desc">Background progress and completion alerts for media downloads</string>
+    <string name="notif_downloading_title">Downloading: %1$s</string>
+    <string name="notif_completed_title">Download Complete: %1$s</string>
+    <string name="notif_failed_title">Download Failed: %1$s</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="ultra_downloads" path="Download/UltraDownloader/" />
+    <external-path name="ultra_movies" path="Movies/UltraDownloader/" />
+    <external-path name="ultra_music" path="Music/UltraDownloader/" />
+    <files-path name="internal_downloads" path="downloads/" />
+</paths>

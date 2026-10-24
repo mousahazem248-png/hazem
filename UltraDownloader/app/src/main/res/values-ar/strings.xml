@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ultra Downloader</string>
+    <string name="app_tagline">منزّل الفيديوهات الاحترافي والآمن</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_active">الجارية</string>
+    <string name="nav_completed">المكتملة</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">تخطي</string>
+    <string name="onboarding_next">التالي</string>
+    <string name="onboarding_start">ابدأ الاستخدام الآن</string>
+    <string name="onboarding_title_1">اكتشاف ذكي وفوري للمنصات</string>
+    <string name="onboarding_desc_1">الصق أي رابط مدعوم من YouTube أو TikTok أو Instagram أو الروابط المباشرة، وسيقوم التطبيق بالتعرف على المنصة وجلب المعاينة الرسمية فوراً.</string>
+    <string name="onboarding_title_2">جودات حقيقية وفحص سلامة الملفات</string>
+    <string name="onboarding_desc_2">اختر الدقة المتاحة فعلياً من المصدر (من 360p حتى 1080p فما فوق) أو صيغة الصوت MP3، مع التحقق من اكتمال الملف وبصمة SHA-256.</string>
+    <string name="onboarding_title_3">أمان فائق واحترام للخصوصية</string>
+    <string name="onboarding_desc_3">لا نخزن أي بيانات دخول، ونحمي شبكتك من هجمات SSRF ومسارات الملفات غير الآمنة، مع الالتزام الكامل بشروط المنصات وحقوق الملكية.</string>
+
+    <!-- Home Screen -->
+    <string name="home_url_label">الصق رابط الفيديو أو الصوت هنا</string>
+    <string name="home_url_placeholder">https://www.youtube.com/watch?v=... أو رابط TikTok / Instagram</string>
+    <string name="home_analyze_button">تحليل الرابط</string>
+    <string name="home_paste_clipboard">لصق من الحافظة</string>
+    <string name="home_clear_input">مسح</string>
+    <string name="home_detected_platform">المنصة المكتشفة: %1$s</string>
+    <string name="home_clipboard_empty">الحافظة لا تحتوي على رابط نصي</string>
+    <string name="home_clipboard_privacy_note">لا يتم قراءة الحافظة إلا عند ضغطك على زر اللصق</string>
+
+    <!-- Preview & Quality Selection -->
+    <string name="preview_title">معاينة الفيديو واختيار الجودة</string>
+    <string name="preview_channel">القناة / الحساب: %1$s</string>
+    <string name="preview_duration">المدة: %1$s</string>
+    <string name="preview_select_format">اختر الجودة والصيغة المتاحة</string>
+    <string name="preview_video_formats">صيغ الفيديو (MP4)</string>
+    <string name="preview_audio_formats">الصوت فقط (MP3 / M4A)</string>
+    <string name="preview_size_unknown">يُحسب الحجم بدقة عند بدء التنزيل</string>
+    <string name="preview_start_download">تنزيل الجودة المختارة</string>
+    <string name="preview_policy_restricted_title">التنزيل المباشر مقيد بسياسة المنصة</string>
+    <string name="preview_open_official_app">استخدام وسيلة التنزيل الرسمية</string>
+
+    <!-- Downloads (Active & Completed) -->
+    <string name="active_downloads_title">التنزيلات الجارية</string>
+    <string name="active_downloads_empty">لا توجد تنزيلات جارية حالياً</string>
+    <string name="completed_downloads_title">التنزيلات المكتملة</string>
+    <string name="completed_downloads_empty">لا توجد تنزيلات مكتملة بعد</string>
+    <string name="action_pause">إيقاف مؤقت</string>
+    <string name="action_resume">استئناف</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_open">تشغيل</string>
+    <string name="action_share">مشاركة</string>
+    <string name="status_queued">في قائمة الانتظار</string>
+    <string name="status_downloading">جاري التنزيل (%1$d%%)</string>
+    <string name="status_merging">جاري دمج الفيديو والصوت قانوياً…</string>
+    <string name="status_verifying">جاري التحقق من سلامة الملف…</string>
+    <string name="status_paused">متوقف مؤقتاً</string>
+    <string name="status_completed">مكتمل وتم التحقق من سلامته</string>
+    <string name="status_failed">فشل التنزيل: %1$s</string>
+
+    <!-- Local Video Player -->
+    <string name="player_title">مشغل الفيديو المحلي</string>
+    <string name="player_open_external">فتح في مشغل خارجي</string>
+    <string name="player_file_verified">تم التحقق من سلامة الملف (SHA-256: %1$s)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_theme">المظهر والألوان</string>
+    <string name="settings_theme_system">تلقائي حسب النظام</string>
+    <string name="settings_theme_dark">الداكن الفاخر (Obsidian Dark)</string>
+    <string name="settings_theme_light">الفاتح الأنيق (Daylight)</string>
+    <string name="settings_language">اللغة / Language</string>
+    <string name="settings_language_ar">العربية (RTL)</string>
+    <string name="settings_language_en">English (LTR)</string>
+    <string name="settings_wifi_only">التنزيل عبر شبكة Wi-Fi فقط</string>
+    <string name="settings_concurrent_limit">الحد الأقصى للتنزيلات المتزامنة: %1$d</string>
+    <string name="settings_storage_path">مجلد الحفظ: Movies/UltraDownloader (MediaStore آمن)</string>
+    <string name="settings_about_link">حول التطبيق وسياسة الخصوصية</string>
+
+    <!-- About & Privacy -->
+    <string name="about_title">حول التطبيق وسياسة الخصوصية</string>
+    <string name="about_version">الإصدار 1.0.0 (نسخة إنتاجية متكاملة)</string>
+    <string name="about_privacy_header">حماية الخصوصية وعدم جمع البيانات</string>
+    <string name="about_privacy_body">يعالج تطبيق Ultra Downloader الروابط بأمان تام دون رفع ملفاتك الشخصية أو قراءة حافظتك دون إذنك، ولا يطلب أو يخزن أي كلمات مرور أو حسابات لمنصات التواصل الاجتماعي.</string>
+    <string name="about_compliance_header">الامتثال لشروط المنصات وحقوق النشر</string>
+    <string name="about_compliance_body">يحترم التطبيق شروط الخدمة وحقوق الملكية الفكرية لمنصات YouTube وTikTok وInstagram. يتيح التطبيق تنزيل المقاطع المسموح بتنزيلها رسمياً أو المملوكة للمستخدم، ويوجهك للوسائل الرسمية عند وجود قيود من المنصة.</string>
+
+    <!-- Error Screen & Diagnostics -->
+    <string name="error_screen_title">تشخيص الخطأ والحلول المقترحة</string>
+    <string name="error_suggested_actions">الحلول المقترحة:</string>
+    <string name="error_try_again">تجربة رابط آخر</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">تنزيلات Ultra Downloader</string>
+    <string name="notif_channel_desc">إشعارات تقدم واكتمال تنزيل الفيديوهات والملفات الصوتية</string>
+    <string name="notif_downloading_title">جاري تنزيل: %1$s</string>
+    <string name="notif_completed_title">اكتمل تنزيل: %1$s</string>
+    <string name="notif_failed_title">تعذر تنزيل: %1$s</string>
+</resources>
